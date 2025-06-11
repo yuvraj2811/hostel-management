@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import Nav from "./Component/Nav";
 import Home from "./Component/Home";
-import Student from "./component/Student";
+import Student from "../src/Component/Student"
 import Rooms from "./component/Rooms";
 import Complaints from "./component/Complaints";
 import Login from "./component/Login";
