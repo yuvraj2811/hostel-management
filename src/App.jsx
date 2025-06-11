@@ -2,13 +2,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { useState } from "react";
 
-import Nav from "./Component/Nav";
-import Home from "./Component/Home";
+import Nav from "../src/Component/Nav";
+import Home from "../src/Component/Home";
 import Student from "../src/Component/Student"
-import Rooms from "./component/Rooms";
-import Complaints from "./component/Complaints";
-import Login from "./component/Login";
-import SignUp from "./component/SignUp";
+import Rooms from "../src/Component/Rooms";
+import Complaints from "../src/Component/Complaints";
+import Login from "../src/Component/Login";
+import SignUp from "../src/Component/SignUp";
 
 function App() {
   const [count, setCount] = useState(0);
